@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Regular.otf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Korataki;
+    src: url("../fonts/Korataki Regular.ttf");
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lato-Semibold;
+    src: url("../fonts/Lato-Semibold.ttf");
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+body {
+    font-family: Lato, sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 260px 0 260px;
+}
+
+.above-header {
+    background-color: #231815;
+}
+
+.above-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 40px;
+}
+
+.above-header-text {
+
+}
+
+.above-header-list {
+    display: flex;
+    gap: 70px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.header {
+
+}
+
+.header-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /*margin-right: 242px;*/
+}
+
+.burger {
+    display: none;
+}
+
+.menu {
+    align-items: center;
+    margin-right: 132px;
+    margin-left: 242px;
+    font-size: 16px;
+    color: #231815;
+    line-height: 100%;
+    font-family: Lato-Semibold, sans-serif;
+    list-style: none;
+    display: flex;
+    max-width: 479px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.close {
+    display: none;
+}
+
+.menu-list {
+    font-size: 16px;
+    color: #231815;
+    line-height: 100%;
+    font-family: Lato-Semibold, sans-serif;
+    list-style: none;
+    display: flex;
+    max-width: 479px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.menu-item {
+    font-size: 16px;
+    color: #231815;
+    line-height: 100%;
+    font-family: Lato-Semibold, sans-serif;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #231815;
+    line-height: 100%;
+    font-family: Lato-Semibold, sans-serif;
+    transition: .5s;
+}
+
+.menu-link:hover {
+    border-bottom: 2px solid rgb(130, 19, 40);
+    transform: scale(1.1);
+}
+
+.menu-link-light {
+    text-decoration: none;
+    font-size: 16px;
+    color: #231815;
+    line-height: 100%;
+    font-family: Lato-Regular, sans-serif;
+    transition: .5s;
+}
+
+.menu-extra-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 89px;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    width: 170px;
+    height: 39px;
+    padding-left: 21px;
+    padding-right: 14px;
+    /*margin-left: 133px;*/
+    gap: 60px;
+}
+
+.menu-extra-item .search {
+    display: none;
+}
+
+.menu-extra-item .svg {
+    display: flex;
+}
+.header-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 138px;
+    height: 39px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+}
+
+.button svg {
+    margin-right: 5px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 82px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 18px;
+    width: 18px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    color: #1A1A1A;
+}
+
+.main {
+
+}
+
+.main-container {
+    padding: 60px 260px 60px 260px;
+}
+
+.main-title {
+    text-align: start;
+    margin-bottom: 40px;
+    font-family: Korataki, sans-serif;
+    font-size: 44px;
+    color: #231815;
+}
+
+.main-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 40px;
+}
+
+.main-item {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    position: relative;
+    width: 320px;
+    height: 565px;
+}
+
+.image {
+    position: relative;
+    max-width: 320px;
+    max-height: 477px;
+}
+
+.img {
+    position: relative;
+    max-width: 320px;
+    max-height: 477px;
+    z-index: 1;
+}
+
+.button-promotion {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 126px;
+    height: 38px;
+    background-color: #231815;
+    color: #FFFFFF;
+    font-family: Lato-Semibold, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.button-action-block {
+    margin-top: 389px;
+    width: 320px;
+    height: 88px;
+    background-color: #F5F5F5B2;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-action:first-child {
+    width: 258px;
+    height: 48px;
+    background-color: #E45302;
+    color: #FFFFFF;
+    border-radius: 100px;
+    font-family: Lato-Semibold, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.main-info {
+    position: absolute;
+    top: 489px;
+}
+
+.main-item-text {
+    text-align: start;
+    font-family: Lato-Bold, sans-serif;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.main-item-price {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Lato-Bold, sans-serif;
+    text-align: start;
+    font-size: 22px;
+}
+
+.main-item-price:nth-child(2) {
+    align-items: end;
+}
+
+.next-price {
+    display: flex;
+    justify-content: start;
+    font-family: Lato-Bold, sans-serif;
+    text-align: start;
+    font-size: 22px;
+    color: #E45302;
+    margin-right: 16px;
+}
+
+.price {
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.footer {
+    background-color: #0C0C0C;
+}
+
+.container.footer-container {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-spam-text {
+max-width: 322px;
+}
+
+.logo-footer {
+    margin-bottom: 53px;
+    max-width: 239px;
+    max-height: 62px;
+}
+
+.info-spam-text {
+    font-size: 16px;
+    line-height: 130%;
+    color: #808080;
+    max-width: 322px;
+}
+
+.all-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-address {
+    margin-bottom: 38px;
+    max-width: 246px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: Lato-Bold, sans-serif;
+    color: #FFFFFF;
+}
+
+.just-text {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+.info-contacts-extra {
+    max-height: 95px;
+    max-width: 246px;
+}
+
+.info-contacts {
+    max-width: 246px;
+    font-size: 18px;
+    font-family: Lato-Bold, sans-serif;
+    color: #FFFFFF;
+}
+
+.email {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-bottom: 25px;
+}
+
+.phone {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+.info-services.info-address ul {
+max-width: 140px;
+}
+.title-service {
+    margin-bottom: 20px;
+}
+.item {
+    font-size: 16px;
+    font-family: Lato-Regular, sans-serif;
+    color: #F5F5F5;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.info-pay {
+    margin-bottom: 72px;
+    text-align: right;
+    max-width: 242px;
+}
+
+.text {
+    font-size: 16px;
+    font-family: Lato-Regular, sans-serif;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.extra-text {
+    font-size: 16px;
+    font-family: Lato-Regular, sans-serif;
+    color: #808080;
+    margin-bottom: 72px;
+}
+
+.info-pay-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+}
