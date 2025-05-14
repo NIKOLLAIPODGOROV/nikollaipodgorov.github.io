@@ -166,13 +166,6 @@ a {
     gap: 60px;
 }
 
-.menu-extra-item .search {
-    display: none;
-}
-
-.menu-extra-item .svg {
-    display: flex;
-}
 .header-order {
     display: flex;
     align-items: center;
@@ -366,6 +359,8 @@ max-width: 322px;
 }
 
 .info-spam-text {
+    display: flex;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     line-height: 130%;
     color: #808080;
@@ -459,4 +454,7 @@ max-width: 140px;
     align-items: center;
     justify-content: space-between;
     gap: 33px;
+}
+.info-spam-text2 {
+    display: none;
 }
